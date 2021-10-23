@@ -34,5 +34,53 @@ public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.
         this.caraMasak= caraMasak;
         this.context = context;
     }
+    @NonNull
+    @Override
+    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.layout_adapter, parent, false);
+        ViewHolder holder = new ViewHolder(view);
+
+        return holder;
+    }
+
+    @Override
+    public void onBindViewHolder(@NonNull ViewHolder holder, @SuppressLint("RecyclerView") int position) {
+        Glide.with(context).asBitmap().load(foto.get(position)).into(holder.imageView);
+        holder.text1.setText(nama.get(position));
+        holder.adapterConstraintLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+//                Toast.makeText(context,nama.get(position),Toast.LENGTH_LONG).show();
+
+                Intent intent=new Intent(context,DetailActivity.class);
+
+                intent.putExtra("foto_makanan",foto.get(position));
+                intent.putExtra("nama_makanan",nama.get(position));
+                intent.putExtra("info_makanan",info.get(position));
+                intent.putExtra("bahan_makanan",bahan.get(position));
+                intent.putExtra("caraMasak_makanan",caraMasak.get(position));
+
+                context.startActivity(intent);
+            }
+        });
+    }
+
+    @Override
+    public int getItemCount() {
+        return nama.size();
+    }
+
+    public class ViewHolder extends RecyclerView.ViewHolder{
+        ImageView imageView;
+        TextView text1;
+        ConstraintLayout adapterConstraintLayout;
+
+        public ViewHolder(@NonNull View itemView) {
+            super(itemView);
+            imageView = itemView.findViewById(R.id.imageView);
+            text1 = itemView.findViewById(R.id.text1);
+            adapterConstraintLayout = itemView.findViewById(R.id.adapterConstraintLayout);
+        }
+    }
 
 }
