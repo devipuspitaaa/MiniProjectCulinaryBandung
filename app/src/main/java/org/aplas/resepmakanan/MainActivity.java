@@ -334,103 +334,113 @@ public class MainActivity extends AppCompatActivity {
                 "Bumbu Pecel : Ulek cabe rawit, gula merah dan garam. Masukkan kacang tanah, petis dan air secukupnya. Ulek sampai halus dan tercampur rata, tekstur jangan terlalu cair.\n" +
                 "Penyajian : Siapkan mangkok. Masukkan potongan lontong, tahu dan tempe. Tambahkan sayur-sayuran sesuai selera. Disusul timun, bawang goreng, seledri dan daun bawang. Beri 4 sdm bumbu pecel dan kecap sesuai selera. Siram dengan kuah soto sampai penuh. Diaduk-aduk dulu sebelum disantap, cobain deh, wuennnaaak banget.");
 
-        nama.add("Pecel Rawon");
-        foto.add("https://2.bp.blogspot.com/-CZZ312PCfuk/WCTZ66pPOvI/AAAAAAAAQQE/2RDzXLCsT1E7iqmmNlPI0SxuwQ_hxj1FgCLcB/s1600/pecel%2Brawon.jpg");
-        info.add("Satu lagi makanan Khas Jawa Timur yang berasal dari daerah Banyuwangi adalah Pecel Rawon. Sesuai dengan namanya, makanan ini merupakan perpaduan antara nasi pecel dengan rawon yang sudah kita bahas diatas.");
-        bahan.add("1/4 daging ayam potong dadu\n" +
-                "Masako\n" +
-                "Lada bubuk\n" +
-                "secukupnya Daun bawang\n" +
-                "Santan instan\n" +
-                "Sawi hijau\n" +
-                "Bamboo rawon\n" +
-                "Sambel pecel jadi\n" +
-                "secukupnya Garam\n");
-        caraMasak.add("Rebus sawi yang telah dipotong. Tiris kan. Encerkan sambel pecel jadi, sisihkan\n" +
-                "Tuangkan minyak goreng sedikit, tumis bumbu bamboo rawon tunggu hingga matang. Tambahkan air secukupnya, masukkan potongan daging ayam, santan instan, daun bawang. Tambahkan masako, lada bubuk, dan garam secukupnya. Koreksi rasa.\n" +
-                "Siapkan nasi, letakkan sawi rebus dan siram dengan sambel pecel. Kemudian tuangkan rawon ayam di atasnya. Pecel Rawon khas Banyuwangi siap dinikmati.\n" +
-                "Pecel Rawon Banyuwangi langkah memasak 3 foto");
+        nama.add("Gehu");
+        foto.add("https://awsimages.detik.net.id/community/media/visual/2016/11/03/e502582c-3fdd-47d4-8589-d0afdad768ac.jpg?w=700&q=90");
+        info.add("Masyarakat Bandung paling bangga dengan resep Gehu Pedas khasnya. Soalnya, tahu isi dengan rasa pedas jeletot ini sudah diakui kelezatannya oleh setiap orang.");
+        bahan.add("Bahan :\n" +
+                "10 buah tahu pong/4 buah tahu besar\n" +
 
-        nama.add("Sego Becek");
-        foto.add("https://3.bp.blogspot.com/-yOesqlGmHp0/WCTbwKTcQZI/AAAAAAAAQQM/qXuN7QkdGq4odOx7indj5u3OteWGaEe8QCLcB/s320/sego%2Bbecek.jpg");
-        info.add("Sego Becek adalah makanan khas dari Nganjuk Jawa Timur. Sego dalam bahasa jawa artinya adalah Nasi. Nasi Becek atau Sego Becek ini adalah hidangan yang mirip dengan gulai, kare kambing khas wilayah Mataraman.");
-        bahan.add("200 gr Daging Kambing, potong2\n" +
-                "150 gr Daging jeroan kambing, rebus potong2\n" +
-                "Bumbu halus Kuah :\n" +
-                "5 siung bawang merah\n" +
-                "3 siung bawang putih\n" +
-                "4 butir Kemiri sangrai\n" +
-                "1/2 sdt Ketumbar bubuk\n" +
-                "1 sdt Merica bubuk\n" +
-                "1/4 sdt Pala bubuk\n" +
-                "1/4 sdt Jinten\n" +
-                "1/2 batang kayu Manis\n" +
-                "1/4 klabet\n" +
-                "1/2 sdt kapulaga\n" +
-                "3 cm jahe\n" +
-                "3 cm Lengkuas\n" +
-                "3 butir cengkeh\n" +
-                "1 cm kencur\n" +
-                "3 cm kunyit\n" +
-                "3 Lembar daun jeruk\n" +
-                "2 Lembar daun salam\n" +
-                "1 sdt garam\n" +
-                "1 sdt gula\n" +
-                "1 sdt bubuk Kaldu sapi\n" +
-                "1 Sdm Kecap manis\n" +
-                "1 Sdm air perasan jeruk nipis\n" +
-                "1/2 butir kelapa parut");
-        caraMasak.add("Siapkan semua bumbu halus. Campurkan kelapa parut dg bumbu halus, aduk rata. Tuang 1,5 liter air ke dalamnya, peras dan sharing air kelapa bumbu. Sisihkan\n" +
-                "Nyalakan kompor, masak air Santan bumbu diatasnya, tambahkan gula garam dan Kaldu bubuk. Koreksi rasa. Kemudian Masukkan jeroan rebus ke dlm nya. Aduk2, tambahkan kecap manis. Masak sampai bumbu meresap. Marinasi daging dg kecap, merica dan Ketumbar. Bakar spt sate sampai matang. Campurkan ke dlm kuah matang tambahkan 1 Sdm air perasan jeruk nipis. Sajikan bersama nasi, Seledri, kubis dan sambal kecap.\n");
+                "Bahan Isi :\n" +
+                "100 gr kol iris\n" +
+                "100 gr toge buang ekornya\n" +
+                "1 buah wortel parut/potong korek api\n" +
+                "3 butir bawang merah cincang\n" +
+                "2 butir bawang putih cincang\n" +
+                "25 buah cabe rawit iris\n" +
+                "1/4 sdt merica bubuk\n" +
+                "1/2 sdt kaldu bubuk\n" +
+                "1 batang daun bawang iris\n" +
+                "1 sdm minyak untuk menumis\n" +
 
-        nama.add("Tahu Campur Lamongan");
-        foto.add("https://3.bp.blogspot.com/-ZUr1bCEogcc/WCTqem9O89I/AAAAAAAAQQo/DdzSsJ-qYvM9v0inm9vFE4_1cP_b6zXMQCLcB/s320/tahu%2Bcampur%2Blamongan.jpg");
-        info.add("Kembali ke Lamongan, ada tahu campur lamongan yang merupakan makanan khas dari daerah Lamongan Jawa Timur. ");
-        bahan.add("500 gr kikil sapi\n" +
-                "1 buah selada\n" +
-                "1/4 toge\n" +
-                "5 potong tahu\n" +
-                "1 bks mie telur (bisa ditambah)\n" +
-                "Petis udang (1/2sdm tiap piring) Bisa juga di skip\n" +
-                "Bumbu Kuah (1)\n" +
-                "5 bawang merah\n" +
-                "8 bawang putih\n" +
-                "1 sdt kunyit bubuk\n" +
-                "2 ruas jahe\n" +
-                "2 ruas kencur\n" +
-                "1/2 sdt merica bubuk\n" +
-                "1/2 sdt ketumbar bubuk\n" +
-                "Bumbu kuah (2)\n" +
-                "2 daun salam\n" +
-                "2 batang sereh\n" +
-                "3-4 daun jeruk\n" +
-                "1 sdm gula merah\n" +
-                "1/2 sdt penyedap rasa\n" +
-                "Secukupnya gula & garam");
-        caraMasak.add("Haluskan semua bumbu kuah (1).\n" +
-                "Kemudian tumis bersama bumbu kuah (2). Tambahkan air (1ltr). Kemudian koreksi rasa hingga pas.\n" +
-                "Masak sampai kuah mendidih.\n" +
-                "Potong2 kikil sapi & rebus sampai empuk. Setelah empuk bisa juga di rebus bersama kuahnya.\n" +
-                "Rebus mie hingga matang, lalu tiriskan.\n" +
-                "Goreng tahu setengah matang.\n" +
-                "Siapkan piring bubuhi petis udang sesuai selera kemudian campur merata dengan kuah. Tambahkan mie, potongan tahu, toge, selada & kikil sapi.\n" +
-                "Kalau mau pedas bisa ditambah sambel cabai rebus.");
+                "Bahan pencelup :\n" +
+                "250 gr terigu\n" +
+                "50 gr sagu\n" +
+                "2 batang daun bawang iris\n" +
+                "375 ml air\n" +
+                "Kurleb 1 sdt garam");
+        caraMasak.add("1. Potong 2 tahu lalu rendam dengan air yang sudah di beri garam secukupnya rendam sampai garam meresap ke tahu.Buang airnya lalu goreng\n" +
+                "2. Bahan isi:tumis bawang merah,bawang putih & cabe rawit hingga harum.\n" +
+                "3. Masukan sayuran aduk- aduk.Tidak perlu menambah air karena sayurannya sudah mengandung air.\n" +
+                "4. Tambahkan merica,kaldu bubuk & daun bawang tumis hingga matang.angkat & sisihkan\n" +
+                "5. Belah tahu lalu masukan bahan adonan isi lakukan sampai habis\n" +
+                "6. Dalam wadah campur semua bahan pencelup aduk hingga rata\n" +
+                "7. Panaskan minyak yg banyak lalu celupkan tahu yg sudah di isi sayuran lalu celupksn ke bahan pencelup lalu goreng hingga matang.angkat & tiriskan.\n" +
+                "8. Sajian siap untuk di nikmati");
 
-        nama.add("Gethuk Pisang");
-        foto.add("https://2.bp.blogspot.com/-Tl-g4gcureo/WCTtAKA_HaI/AAAAAAAAQQs/UotR1FPwAHwy7AyI-oniyekkvAZkk1RSwCLcB/s320/gethuk-pisang.jpg");
-        info.add("Gethuk pada umumnya dibuat dari Singkong, tapi makanan dan camilan khas Kediri Jawa Timur ini dibuat dari pisang.");
-        bahan.add("10 bh pisang \n" +
-                "3 sdm gulpas\n" +
-                "2-3 sdm Tepung Beras\n" +
-                "2-3 sdm Tepung tapioka\n" +
-                "1-2 sdm gula merah, tambahan sy, optional\n" +
-                "Topping\n" +
-                "100 gr kelapa parut\n" +
-                "1 sdt garam");
-        caraMasak.add("Kukus pisang sekitar 15 menit, sampai matang\n" +
-                "Kelapanya jg ikutan dikukus ya diatas pisang Angkat, hilangkan uapnya, kemudian kupas & ulek halus pisang dgn ditambah gula pasir selagi hangat\n" +
-                "Kemudian setelah halus masukkan tepung2an, aduk rata Jika suka boleh tambahkan gula merah, aduk rata * Kukus 30 - 45 menit, hingga matang (tes tusuk)\n" +
-                "Jika sdh matang, angkat di dinginkan, setelah itu potong2 sesuai selera Terakhir beri topping, kelapa kukus+garam sebelum disajikan.");
+        nama.add("Peuyeum");
+        foto.add("https://cdn-2.tstatic.net/travel/foto/bank/images/peuyeum-camilan-khas-bandung-yang-terbuat-dari-singkong.jpg");
+        info.add("Peuyeum Bandung merupakan makanan khas Sunda, terbuat dari singkong yang telah melalui proses fermentasi.");
+        bahan.add("Bahan :\n" +
+                "1 kg singkong\n" +
+                "5 butir ragi tape\n" +
+                "Daun pisang");
+        caraMasak.add("1. Siapkan alat dan bahan yang diperlukan untuk membuat peuyem bandung.\n" +
+                "2. Kupas singkong dari kulitnya dan cuci bersih\n" +
+                "3. Rebus singkong terlebih dahulu selama 10 sampai 15 menit\n" +
+                "4. Angkat dan tiriskan. Tunggu sampai singkong menjadi dingin dan airnya turun.\n" +
+                "5. Haluskan ragi tape. Moms bisa menggunakan sendok untuk menghancurkan dan mengaluskannya.\n" +
+                "6. Siapkan panci, baskom, atau wadah yang cukup besar untuk menampung seluruh singkong. Lapisi dengan daun pisang.\n" +
+                "7. Ambil satu singkong yang sudah dingin dan lumuri seluruh permukaannya dengan ragi tape. Jika singkongnya berlubang di tengah, bisa dimasukkan juga ragi ke dalamnya.\n" +
+                "8. Simpan singkong yang sudah dilumuri ragi ke dalam wadah. Kemudian lakukan hal yang sama ke singkong lainnya.\n" +
+                "9. Jika semua singkong sudah dilumuri ragi, taburkan ragi yang tersisa ke atas singkong-singkong tersebut.\n" +
+                "10. Tutup singkong dengan daun pisang dan tutup wadah dengan rapat. Jika menggunakan panci bisa menggunakan tutupnya.\n" +
+                "11. Diamkan singkong tersebut selama 2 hari agar terfermentasi.\n" +
+                "12. Setelah 2 hari, singkong sudah terfermentasi menjadi peuyeum khas Bandung.\n" +
+                "13. Peuyeum Bandung siap untuk disajikan dan dinikmati bersama");
+
+        nama.add("Pisang Bollen Bandung");
+        foto.add("https://cdn.idntimes.com/content-images/post/20191030/54247261-2145874318864856-3557674617174342807-n-166d5dd037df92b99dc6f19137714dba.jpg");
+        info.add("Pisang bollen khas Bandung terbuat dari pisang, tepung, telur, dan mentega. Makin mantap dinikmati dengan secangkir teh hangat.");
+        bahan.add("Bahan A:\n" +
+                "1. Siapkan tepung terigu serbaguna/protein sedang (segitiga biru) - 100 gr.\n" +
+                "2. Siapkan margarin - 75 gr.\n" +
+
+                "Bahan B:\n" +
+                "1. Siapkan tepung terigu protein tinggi (cakra kembar) - 100 gr.\n" +
+                "2. Siapkan gula pasir - 50 gr.\n" +
+                "3. Siapkan margarin - 75 gr.\n" +
+                "4. Siapkan air - 50 ml.\n" +
+
+                "Bahan Isi :\n" +
+                "1. Siapkan pisang cavendish sedang (bisa pisang apa aja) - 2 buah.\n" +
+                "2. Siapkan Keju Parut.\n"+
+                "3. Siapkan Ceres.\n" +
+
+                "Toping :\n" +
+                "1. Siapkan kuning telur - 1 buah.\n" +
+                "2. Siapkan Keju parut.");
+        caraMasak.add("1. Campurkan bahan A uleni sampai tidak ada tepung terigu yang menempel, lalu simpan di ke kulkas selama 15-20 menit. Lakukan hal yang sama pada bahan B.\n" +
+                "2. Setelah 20 menit bagi adonan sebanyak 12 buah (paling bagus di timbang sama rata) lakukan pada bahan A dan B.\n" +
+                "3. Lalu giling bahan B dengan rolling pin, kemudian masukan bahan A, lipat seperti amplop, giling lalu lipat kembali, ulangi sampai 3x, semakin banyak lipatan semakin bagus, adonan akan jadi semakin \"flakky\". Adonan juga bisa disimpan di kulkas, lalu bisa dilipat lagi dan digunakan jika perlu.\n" +
+                "4. Untuk isian goreng pisang sebentar, lalu potong menjadi 12 bagian. Giling kulit lalu isi dengan pisang, keju dan ceres jangan lupa untuk menutup pinggiran adonan dengan menekan bagian samping.\n" +
+                "5. Siapkan loyang, jangan lupa taburi dengan margarin dan tepung olesi adonan dengan kuning telur lalu tambahkan keju/ceres diatasnya.\n" +
+                "6. Panggang selama 35 menit dengan suhu 200°C.");
+
+        nama.add("Surabi Bandung");
+        foto.add("https://cdn.idntimes.com/content-images/post/20191030/71508207-200305200961828-4254607348075778087-n-b262d5491053356656462c761fbce9e7.jpg");
+        info.add("Camilan hits Bandung adalah surabi. Dibuat dari tepung beras, makanan ini disajikan dengan beragam rasa dan topping lezat.");
+        bahan.add("Bahan :\n" +
+                "1. 400 gram tepung beras.\n" +
+                "2. 125 gram kelapa parut setengah tua\n" +
+                "3. 1 sdm gula\n" +
+                "4. ½ sdt garam\n" +
+                "5. ½ sdt ragi\n" +
+                "6. 500 ml santan cair\n" +
+
+
+                "Toping :\n" +
+                "1. Coklat batang parut\n" +
+                "2. Siapkan Keju parut.");
+        caraMasak.add("1. Campurkan tepung beras, kelapa parut, gula, garam, dan ragi ke dalam satu wadah.\n" +
+                "2. Tuang air ke dalam bahan-bahan yang sudah dicampur.\n" +
+                "3. Aduk hingga semua bahan tercampur rata.\n" +
+                "4. Diamkan selama 30 menit.\n" +
+                "5. Panaskan tungku. Jika tidak punya tungku tanah liat, bisa pakai wajan yang cekung.\n" +
+                "6. Masak adonan ke dalam tungku. Tutup tungku dan diamkan hingga matang.\n" +
+                "7. Jika sudah matang, pindahkan ke piring.\n" +
+                "8. Ulangi prosesnya hingga semua adonan selesai dimasak\n." +
+                "9. Saat serabi masih panas, taburi topping coklat atau keju.\n" +
+                "10. Serabi Bandung siap dihidangkan.");
 
         proses();
     }
