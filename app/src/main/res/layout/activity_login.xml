@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FF9BD855"
     tools:context=".LoginActivity">
 
     <LinearLayout
@@ -10,13 +12,26 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/logo"
+            />
+
         <EditText
             android:id="@+id/editTextTextPersonName"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:ems="15"
-            android:inputType="textPersonName"
-            android:text="             Bandung Culinary" />
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="casual"
+            android:textSize="35sp"
+            android:text="Bandung Culinary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <EditText
             android:id="@+id/txtUser"
@@ -38,6 +53,7 @@
             android:id="@+id/login"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
+            android:backgroundTint="#FFFD7449"
             android:text="Login" />
 
 
