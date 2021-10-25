@@ -305,7 +305,7 @@ public class MainActivity extends AppCompatActivity {
 
         caraMasak.add("1. Pertama, siapkan kaki sapi. Masak dalam panci presto selama satu jam, tidak perlu diberi bumbu. Jika sudah matang, angkat dan tiriskan. \n" +
                 "2. Siapkan panci, didihkan air 1,5 liter. Kemudian masukkan daun salam, serai yang sudah digeprek, dan potongan jahe yang sudah digeprek ke dalam air.\n" +
-                "3. Masukkan kaki sapi yang sudah dipresto tadi, kemudian rebus sampai matang dan empuk. \n"
+                "3. Masukkan kaki sapi yang sudah dipresto tadi, kemudian rebus sampai matang dan empuk. \n" +
                 "4. Sambil menunggu kaki sapi matang, siapkan bumbu halus. Iris tipis bawang merah dan bawang putih. Goreng hingga harum, matikan api dan tiriskan.");
 
         nama.add("Gehu");
