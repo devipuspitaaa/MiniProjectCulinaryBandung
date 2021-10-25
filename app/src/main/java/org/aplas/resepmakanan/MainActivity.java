@@ -285,56 +285,28 @@ public class MainActivity extends AppCompatActivity {
 
         nama.add("Mie kocok");
         foto.add("https://upload.wikimedia.org/wikipedia/id/thumb/a/a8/Rujak_soto.jpg/800px-Rujak_soto.jpg");
-        info.add("Masih di Banyunwangi, ada makanan yang dikenal dengan nama Rujak Soto. Rujak Soto adalah merupakan paduan unik antara rujak sayur dengan soto, bisa soto daging (daging sapi) atau sato babat. Bahkan ada yang memadukan dengan soto ayam atau soto ceker (kaki ayam), ini biasa dilakukan sebagai alternatif ketika ingin menikmati rujak soto tetapi harga daging sedang melambung.");
-        bahan.add("1/2 kg ceker ayam\n" +
-                "1 kg sayap ayam\n" +
-                "2 L air\n" +
-                "Secukupnya garam\n" +
-                "1 buah jeruk nipis\n" +
-                "Bumbu Halus (Kuah Soto) :\n" +
-                "12 siung bawang merah\n" +
-                "8 siung bawang putih\n" +
-                "4 butir kemiri, sangrai\n" +
-                "2 ruas kunyit, bakar\n" +
-                "5 cm jahe\n" +
-                "5 cm lengkuas\n" +
-                "1 sdt ketumbar bubuk\n" +
-                "1 sdt lada bubuk\n" +
-                "1 sdt garam\n" +
-                "Bumbu Pelengkap (Kuah Soto) :\n" +
-                "1 batang daun bawang, iris\n" +
-                "6 lembar daun jeruk\n" +
-                "2 batang serai, geprek\n" +
-                "Secukupnya gula dan kaldu jamur\n" +
-                "Bahan Sayur-sayuran :\n" +
-                "1 ikat kangkung, siangi\n" +
-                "1 ikat genjer, siangi\n" +
-                "1/2 buah kol, iris\n" +
-                "100 gr taoge\n" +
-                "10 buah kacang panjang, potong\n" +
-                "Bumbu Kuah Pecel :\n" +
-                "5 sdm kacang tanah, goreng sebentar, haluskan\n" +
-                "8 buah cabe rawit merah\n" +
-                "1 sdm gula merah\n" +
-                "1/2 sdt garam\n" +
-                "1 sdm petis\n" +
-                "Secukupnya air matang\n" +
-                "Bahan Pelengkap :\n" +
-                "8 buah lontong, potong-potong\n" +
-                "6 buah tahu goreng, potong kecil\n" +
-                "6 buah tempe, potong kecil\n" +
-                "2 batang seledri, iris\n" +
-                "1 batang daun bawang, iris\n" +
-                "1 buah timun, iris bagi 4\n" +
-                "Secukupnya bawang goreng\n" +
-                "Secukupnya kecap manis");
-        caraMasak.add("Cuci bersih ayam, beri perasan jeruk nipis dan garam. Diamkan selama 15 menit. Bilas kembali. Siram dengan air panas mendidih, diamkan sebentar, buang air.\n" +
-                "Didihkan air dalam panci. Setelah mendidih, masukkan ayam. Rebus dengan api kecil sampai mendidih.\n" +
-                "Tumis bumbu halus tanpa minyak, sampai matang (krn sy blendernya pake air). Setelah matang, baru ditambahkan minyak, dan masukkan daun jeruk dan serai. Masak kembali hingga matang (sampai mengeluarkan minyak). Dijamin lebih sedap.\n" +
-                "Masukkan daun bawang, tumis sebentar. Masukkan bumbu yg sudah matang ke dalam panci. Masak dengan api kecil sampai ayam lunak. Koreksi rasa dengan garam, gula dan kaldu jamur. Sisihkan.\n" +
-                "Didihkan air, beri garam. Rebus sayuran satu persatu sampai layu, sayuran hijau terakhir. Kalau saya, kacang panjang - kol - taoge - kangkung. Khusus genjer gak perlu direbus, cukup direndam aja dg air sisa rebusan sampe layu.\n" +
-                "Bumbu Pecel : Ulek cabe rawit, gula merah dan garam. Masukkan kacang tanah, petis dan air secukupnya. Ulek sampai halus dan tercampur rata, tekstur jangan terlalu cair.\n" +
-                "Penyajian : Siapkan mangkok. Masukkan potongan lontong, tahu dan tempe. Tambahkan sayur-sayuran sesuai selera. Disusul timun, bawang goreng, seledri dan daun bawang. Beri 4 sdm bumbu pecel dan kecap sesuai selera. Siram dengan kuah soto sampai penuh. Diaduk-aduk dulu sebelum disantap, cobain deh, wuennnaaak banget.");
+        info.add("Mi kocok adalah hidangan mi bercitarasa kaldu sapi khas kota Bandung, Jawa Barat. Hidangan ini terdiri atas mi kuning yang disajikan dalam kuah kaldu sapi kental, irisan kikil, taoge, bakso, jeruk nipis, dan ditaburi irisan seledri, daun bawang, dan bawang goreng.");
+        bahan.add("Bahan : \n" +
+                "500 gram mie basah\n" +
+                "1 ons tauge mentah\n" +
+                "Seledri secukupnya\n" +
+                "1 buah kaki sapi (kira kira 1 kg)\n" +
+                "1,5 liter air\n" +
+
+                "Bumbu : \n" +
+                "4 lembar daun salam\n" +
+                "3 batang serai\n" +
+                "2 ruas jahe\n" +
+
+                "Bumbu halus :\n" +
+                "5 siung bawang putih \n" +
+                "5 sing bawang merah\n" +
+                "penyedap secukupnya");
+
+        caraMasak.add("1. Pertama, siapkan kaki sapi. Masak dalam panci presto selama satu jam, tidak perlu diberi bumbu. Jika sudah matang, angkat dan tiriskan. \n" +
+                "2. Siapkan panci, didihkan air 1,5 liter. Kemudian masukkan daun salam, serai yang sudah digeprek, dan potongan jahe yang sudah digeprek ke dalam air.\n" +
+                "3. Masukkan kaki sapi yang sudah dipresto tadi, kemudian rebus sampai matang dan empuk. \n"
+                "4. Sambil menunggu kaki sapi matang, siapkan bumbu halus. Iris tipis bawang merah dan bawang putih. Goreng hingga harum, matikan api dan tiriskan.");
 
         nama.add("Gehu");
         foto.add("https://awsimages.detik.net.id/community/media/visual/2016/11/03/e502582c-3fdd-47d4-8589-d0afdad768ac.jpg?w=700&q=90");
